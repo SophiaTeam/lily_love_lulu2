@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @inboc.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @inboc.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @inboc.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_inboc_path(@inboc) %> |
+<%= link_to 'Back', inbocs_path %>
